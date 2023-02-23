@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-  *main - Entry point
-  * Description: checks on the last digit of the assigned var
-  * Return: Always 0 (success) 
-  */
+ * main - Entry point
+ * Description: checks on the last digit of the assigned var
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
@@ -15,10 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
 
-	printf("Last digit of %d is", n);
-	last_digit = n % 10;
-
-	printf("Last digit of %d is", n);
+	printf("Last digit of %d is ", n);
 	if (last_digit > 5)
 	{
 	printf("%d and is greater than 5\n", last_digit);
